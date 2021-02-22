@@ -5,6 +5,8 @@ categories:
 tags:
     - Sample
     - Hanyang University
+image: 3.jpg
+
 ---
 
 코로나 
