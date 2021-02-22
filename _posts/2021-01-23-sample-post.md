@@ -5,7 +5,7 @@ categories:
 tags:
     - Sample
     - Hanyang University
-image: 3.jpg
+image: 6.jpg
 
 ---
 
