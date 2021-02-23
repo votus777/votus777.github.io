@@ -7,9 +7,10 @@
     {% include analytics.html %}
   {% endif %}
   <div class="o-wrapper">
-    {% include toc.html html=content %}
+    
     {{ content }}
   </div> <!-- /.o-wrapper -->
+  {% include toc.html html=content %}
   <div class="c-top" data-icon='ei-chevron-up' data-size='s' title="Scroll To Top"></div> <!-- /.c-top -->
   {% include javascripts.html %}
 </body>
