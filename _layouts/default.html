@@ -7,15 +7,9 @@
     {% include analytics.html %}
   {% endif %}
   <div class="o-wrapper">
-   
-
     
     {{ content }} 
-    <aside class="sidebar__right sticky" style="height: auto !important;">
-    <div class="toc">
-      {% include toc.html html=content sanitize=true h_min=1 h_max=2 %}
-    </div>
-    </aside>
+
   </div> <!-- /.o-wrapper -->
   <div class="c-top" data-icon='ei-chevron-up' data-size='s' title="Scroll To Top"></div> <!-- /.c-top -->
   {% include javascripts.html %}
