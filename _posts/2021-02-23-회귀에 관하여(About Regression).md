@@ -4,7 +4,7 @@ title: ' 회귀에 관하여 (About Regression) '
 categories:
 - Study 
   
-image: 회귀.jpg 
+image: regression.jpg 
   
 tags:
 - Regression
