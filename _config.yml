@@ -34,7 +34,7 @@ disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example
 markdown: kramdown
 kramdown : 
   input : GFM
-highlighter: rouge
+  highlighter: rouge
 permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-paginate
