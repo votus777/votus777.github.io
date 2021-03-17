@@ -25,11 +25,11 @@ tags:
 여기서 직선의 성질이란   
 Homogeneity(동차성, 비례성)과 Additivity(가산성)이 성립된다는 것을 의미한다.
 
-```
-(a는 실수)  ay=f(ax)=af(x) --> Homogeneity  
 
-y1+y2=f(x1+x2)=f(x1)+f(x2) --> Additivity : 중첩의 원리( superposition principle ) 
-```
+>(a는 실수)  ay=f(ax)=af(x) --> Homogeneity  
+
+>y1+y2=f(x1+x2)=f(x1)+f(x2) --> Additivity : 중첩의 원리( superposition principle ) 
+
 y = 2x + 1 를 보면 a = 4, b =5 일때  
 f(a) + f(b) = f(4) + f(5) = 9 + 11 = 20 이지만 f(a+b) = f(4+5) = f(9) = 19가 나온다
 → additivity 실종
