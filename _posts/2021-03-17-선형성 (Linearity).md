@@ -4,7 +4,7 @@ title: '선형성(Linearity)'
 categories:
 - Study
 
-image: 12.jpg
+image: 10.jpg
 
 tags:
 - AI
