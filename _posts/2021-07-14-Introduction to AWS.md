@@ -60,9 +60,7 @@ JSON 문서를 바로 저장할 수도 있다. 시간 당이 아니라 사용량
 ECS, EKS(Elastic Kubernetes Service),ECR(Elastic Container Registry), Fargate는 컨테이너 형식으로 움직인다. 
 AWS Fargate는 관리 오버헤드를 줄이면서 더 많은 제어 원한을 제공하는 옵션을 지원한다. 서버, 클러스터 관리.  
 AWS Lambda는 이벤트가 발생하면 코드를 실행하는 앱 엔진으로 켜 놓은 시간이 아닌 실제 실행 시간과 용량을 기준으로 과금된다. 
-
-<EC2의 유형>    
-  
+   
 |일반|컴퓨팅 최적화|메모리 최적화|스토리지 최적화|가속화 컴퓨팅|          
 |:---:|:---:|:---:|:---:|:---:|    
 |범용|고성능|In-memory DB|분산 파일 시스템|Machine Learning|      
