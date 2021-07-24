@@ -4,7 +4,7 @@ title: 'AWS에 관하여'
 categories:
 - Study
 
-image: 1.jpg
+image: 3.jpg
 
 tags:
 - AI
