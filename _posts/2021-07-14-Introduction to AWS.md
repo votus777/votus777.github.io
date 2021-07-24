@@ -2,9 +2,9 @@
 title: 'AWS에 관하여'
 
 categories:
-- AWS
+- Study
 
-image: 5.jpg
+image: 1.jpg
 
 tags:
 - AI
