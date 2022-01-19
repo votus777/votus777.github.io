@@ -2,7 +2,6 @@
 layout: post
 title: "Welcome to Jekyll!"
 date: 2018-02-05 15:13:18 +0200
-image: ![Picture](https://source.unsplash.com/collection/190727/1600x900)
 tags: [jekyll, docs]
 categories: jekyll
 ---
