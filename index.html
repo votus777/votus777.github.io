@@ -17,6 +17,7 @@ layout: home
     {% if post.image %}
     <a class="c-post-thumbnail o-opacity" style="background-image: url(https://source.unsplash.com/1600x900/?nature);"
         href="{{post.url | prepend: site.baseurl}}"></a>
+    <!-- 매번 image 폴더에 썸네일 & 배경 이미지 넣기 귀찮아서 unsplash 랜덤 이미지 가져오도록 바꿈 -->
     {% else %} {% endif %}
     <div class="c-post-content">
       <h2 class="c-post-title">
@@ -24,8 +25,8 @@ layout: home
       </h2>
       <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
       <span class="c-post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<!--       <span class="c-post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | -->
-<!--           plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span> -->
+<!--       <span class="c-post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words |
+          plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span> -->
     </div>
   </article> <!-- /.c-post -->
   {% endfor %}
