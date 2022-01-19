@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
+title: "Testing!"
 date: 2018-02-05 15:13:18 +0200
 tags: [jekyll, docs]
 categories: jekyll
