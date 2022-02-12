@@ -19,7 +19,7 @@ tags:
 - Focused on BI (Business Intelligence)
 - Drag & Drop, No coding skill 
 - Support data preperation tools 
-- 1 year free for students 
+- Free one-year Tableau licenses to students 
 
 데이터 시각화 및 분석을 위해 **Tableau**를 사용해보았다. 
 데이터는 JSON, CSV, EXCEL 형식의 파일을 직접 업로드 할 수도 있고 
