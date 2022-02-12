@@ -28,17 +28,18 @@ tags:
 나는 mongoDB에 데이터를 넣어놓았기 때문에 Tableau와 이를 연결해보기로 한다. 
 
 1. 우선 이 둘을 연결하기 위한 **MongoDB BI Connector**가 필요하다. 
-(다운로드 링크 : [link](https://www.mongodb.com/try/download/bi-connector))
-	다운 받은 후 설치를 진행한다. mongoDB가 설치되어 있다면 자동으로 C드라이브의 mongoDB 폴더 내로 설치 경로가 잡힌다.  
+(다운로드 링크 : [link](https://www.mongodb.com/try/download/bi-connector))  
+   다운 받은 후 설치를 진행한다.   
+   mongoDB가 설치되어 있다면 자동으로 C드라이브의 mongoDB 폴더 내로 설치 경로가 잡힌다.    
 
-2. 설치해놓은 Tableau Desktop을 실행하고 우측의 'To a server' -> 'more' -> 'MongoDB BI Connector'를 선택한다.  
+2. 설치해놓은 Tableau Desktop을 실행하고 우측의 'To a server' -> 'more' -> 'MongoDB BI Connector'를 선택한다.    
 
 3. mongodb는 현재 로컬 서버이기 때문에 server는 127.0.0.1, port는 3307이다. 
 
 4. **하지만 하단의 로그인을 누르기 전에 mongosqld를 실행해서 `sampling mongoDB for schema`가 끝난 이후여야 한다.**  
- 	이를 하지 않으면 백날 눌러봤자 에러만 난다. 이걸 몰라서 한참 해맸다. 
-	mongosqld는 방금 전 BI connector가 설치된 파일 경로 안에 있다.
-	(C:\Program Files\MongoDB\Connector for BI\2.14\bin\mongosqld.exe)
+ 	이를 하지 않으면 백날 눌러봤자 에러만 난다. 이걸 몰라서 한참 해맸다.   
+	mongosqld는 방금 전 BI connector가 설치된 파일 경로 안에 있다.   
+	(C:\Program Files\MongoDB\Connector for BI\2.14\bin\mongosqld.exe)  
 	
 	구글링을 해보면서 MongoDB ODBC Driver와 System DSN를 편집하는 방법이 계속 나왔는데 이미 Tableau에서 connector 지원을 하는 이상 굳이 이렇게 번거롭게 하지 않아도 될 듯 싶다. 
 	
