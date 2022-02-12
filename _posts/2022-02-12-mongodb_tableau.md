@@ -36,7 +36,7 @@ tags:
 
 3. mongodb는 현재 로컬 서버이기 때문에 server는 127.0.0.1, port는 3307이다. 
 
-4. **하지만 하단의 로그인을 누르기 전에 mongosqld를 실행해서 `sampling mongoDB for schema`가 끝난 이후여야 한다.**  
+4. **하지만 하단의 로그인을 누르기 전에 mongosqld.exe를 실행해서 `sampling mongoDB for schema`가 끝난 이후여야 한다.**  
  	이를 하지 않으면 백날 눌러봤자 에러만 난다. 이걸 몰라서 한참 해맸다.   
 	mongosqld는 방금 전 BI connector가 설치된 파일 경로 안에 있다.   
 	(C:\Program Files\MongoDB\Connector for BI\2.14\bin\mongosqld.exe)  
