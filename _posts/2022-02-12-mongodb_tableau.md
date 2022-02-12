@@ -39,7 +39,8 @@ tags:
 4. **하지만 하단의 로그인을 누르기 전에 mongosqld.exe를 실행해서 `sampling mongoDB for schema`가 끝난 이후여야 한다.**  
  	이를 하지 않으면 백날 눌러봤자 에러만 난다. 이걸 몰라서 한참 해맸다.   
 	mongosqld.exe는 방금 전 BI connector가 설치된 파일 경로 안에 있다.   
-	(C:\Program Files\MongoDB\Connector for BI\2.14\bin\mongosqld.exe)  
+	(C:\Program Files\MongoDB\Connector for BI\2.14\bin\mongosqld.exe)   
+	이는 종료하지 말고 계속 켜두도록 한다. 
 	
 	구글링을 해보면서 MongoDB ODBC Driver와 System DSN를 편집하는 방법이 계속 나왔는데 이미 Tableau에서 connector 지원을 하는 이상 굳이 이렇게 번거롭게 하지 않아도 될 듯 싶다. 
 	
