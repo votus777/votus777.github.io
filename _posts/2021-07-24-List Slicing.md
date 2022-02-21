@@ -1,5 +1,5 @@
 ---
-title: 'Data Slicing'
+title: 'Python List Slicing'
 
 categories:
 - study
@@ -8,7 +8,7 @@ image: 2.jpg
 
 tags:
 - AI
-- Big Data
+- python
 
 ---
 
