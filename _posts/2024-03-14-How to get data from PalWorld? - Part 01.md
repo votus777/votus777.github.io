@@ -13,8 +13,6 @@ tags:
 
 ---
 
-< Introduction >
-
 #### Introduction 
 PalWorld는 2024년 1월 19일 얼리엑세스를 통해 출시되었으며
 2월 1일 기준 스팀 판매량 1200만장, 엑스박스 이용자 700만명,
@@ -81,8 +79,10 @@ Enigneering에 기술력이 있는 회사에서 발전되고 있다.
 
 
 ___
-< Reference >
+#### Reference 
+
+[](UE4SS Documentation)[https://docs.ue4ss.com/dev/lua-api.html]((https://docs.ue4ss.com/dev/lua-api.html)  
 
 [1] (UE4SS Documentation)[https://docs.ue4ss.com/dev/lua-api.html]
-[1] (PalWorld Modding Wiki)[https://pwmodding.wiki/docs/lua-modding/ue4ss-functions ]
-[1] (Unreal Engine 5 Docs)[https://docs.unrealengine.com/5.3/en-US/API/Runtime/Engine/GameFramework/]
+[2] (PalWorld Modding Wiki)[https://pwmodding.wiki/docs/lua-modding/ue4ss-functions ]
+[3] (Unreal Engine 5 Docs)[https://docs.unrealengine.com/5.3/en-US/API/Runtime/Engine/GameFramework/]
