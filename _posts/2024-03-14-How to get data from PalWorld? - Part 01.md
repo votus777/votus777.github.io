@@ -4,7 +4,7 @@ title: 'How to get data from PalWorld? - Part 01'
 categories:
 - Project
 
-image: 24.jpg
+image: 25.jpg
 
 tags:
 - Data Collection
