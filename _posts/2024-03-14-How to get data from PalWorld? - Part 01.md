@@ -67,9 +67,9 @@ ___
 
 - **움직임 (Movement)**은 현대 자동차의 Boston Dynamic나 Tesla처럼  
 Enigneering에 기술력이 있는 회사에서 발전되고 있다.   
-- **지능 (Intelligence) **은 Deep Learning으로 급격한 발전을 이룬 AI 분야,   
+- **지능 (Intelligence)**은 Deep Learning으로 급격한 발전을 이룬 AI 분야,   
 특히 SW 기술력과 데이터, 컴퓨팅 자원이 풍부한 빅테크에서 연구되고 있다.   
-- 그렇다면 **상호작용 (Interaction) **은 어디서 발전하고 있는가?   
+- 그렇다면 **상호작용 (Interaction)**은 어디서 발전하고 있는가?   
 
 나는 HRI (Human-Robot Interaction), HAI(Human-AI Interaction)는   
 게임 분야에서 더욱 활발히 연구 되어야 한다고 생각한다.   
