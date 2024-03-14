@@ -103,8 +103,9 @@ Content안의 DataTable 폴더를 json 으로 변환해서 저장하고,
 
 
 ___
-< Reference >  
+#### Reference 
 
-[1] (UE4SS Documentation)[https://docs.ue4ss.com/dev/lua-api.html]  
-[2] (PalWorld Modding Wiki)[https://pwmodding.wiki/docs/lua-modding/ue4ss-functions ]  
-[3] (Unreal Engine 5 Docs)[https://docs.unrealengine.com/5.3/en-US/API/Runtime/Engine/GameFramework/]  
+[UE4SS Documentation](https://docs.ue4ss.com/dev/lua-api.html)  
+[PalWorld Modding Wiki](https://pwmodding.wiki/docs/lua-modding/ue4ss-functions)  
+[Unreal Engine 5 Docs](https://docs.unrealengine.com/5.3/en-US/API/Runtime/Engine/GameFramework/)  
+
