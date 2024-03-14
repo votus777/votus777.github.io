@@ -29,14 +29,14 @@ PalWorld는 2024년 1월 19일 얼리엑세스를 통해 출시되었으며
 과연 효율적으로 움직이며 아웃풋을 제대로 내고 있는지는 객관적인 데이터와 지표가 없으니 알 수 없다.  
 
 구글, 링크드인 같은 테크 회사에서는 개발자의 업무 생산성을  
-수행하는 작업에서의 **참여도, 속도, 품질, 안정성** 등을 기준으로 추적하며 지표를 만들어 측정한다.[Link](https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity-bae)    
+수행하는 작업에서의 **참여도, 속도, 품질, 안정성** 등을 기준으로 추적하며 지표를 만들어 측정한다. [Link](https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity-bae)    
 심회적으로는 Ease of Delivery, Time Loss, Change Failure Rate 처럼 복잡한 지표를 만들거나 정성적 지표와 혼합해서 측정하기도 한다.   
 
 우리만의 지표를 선택하기 위해서는 구글의 'Goals, Signals, Metrics (GSM)' 프레임워크를 적용해 볼 수 있다.   
 
 **1. 문제를 해결하고자 하는 목표 정의**    
-**2.해당 목표를 달성했다는 것을 알려주는 신호 탐색** 
-**3.적절한 지표를 선택**    
+**2.해당 목표를 달성했다는 것을 알려주는 신호 탐색**    
+**3.적절한 지표를 선택**      
 
 이런 데이터를 어떻게 찾고, 어떻게 기록할 수 있을까.   
 
