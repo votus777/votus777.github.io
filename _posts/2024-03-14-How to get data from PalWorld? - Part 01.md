@@ -34,9 +34,9 @@ PalWorld는 2024년 1월 19일 얼리엑세스를 통해 출시되었으며
 
 우리만의 지표를 선택하기 위해서는 구글의 'Goals, Signals, Metrics (GSM)' 프레임워크를 적용해 볼 수 있다.   
 
-**1. 문제를 해결하고자 하는 목표 정의  
-2.해당 목표를 달성했다는 것을 알려주는 신호 탐색    
-3.적절한 지표를 선택  **  
+**1. 문제를 해결하고자 하는 목표 정의**    
+**2.해당 목표를 달성했다는 것을 알려주는 신호 탐색** 
+**3.적절한 지표를 선택**    
 
 이런 데이터를 어떻게 찾고, 어떻게 기록할 수 있을까.   
 
@@ -65,11 +65,11 @@ ___
 상호작용이 없으면 업무 자동화 시스템일 뿐이다.   
 이 세가지 요소가 모두 충족되어야 진정한 의미의 로봇이 될 수 있다.   
 
-- 움직임은 현대 자동차의 Boston Dynamic나 Tesla처럼  
+- **움직임 (Movement)**은 현대 자동차의 Boston Dynamic나 Tesla처럼  
 Enigneering에 기술력이 있는 회사에서 발전되고 있다.   
-- 지능은 Deep Learning으로 급격한 발전을 이룬 AI 분야,   
+- **지능 (Intelligence) **은 Deep Learning으로 급격한 발전을 이룬 AI 분야,   
 특히 SW 기술력과 데이터, 컴퓨팅 자원이 풍부한 빅테크에서 연구되고 있다.   
-- 그렇다면 상호작용은 어디서 발전하고 있는가?   
+- 그렇다면 **상호작용 (Interaction) **은 어디서 발전하고 있는가?   
 
 나는 HRI (Human-Robot Interaction), HAI(Human-AI Interaction)는   
 게임 분야에서 더욱 활발히 연구 되어야 한다고 생각한다.   
@@ -81,7 +81,7 @@ Enigneering에 기술력이 있는 회사에서 발전되고 있다.
 ___
 #### Reference 
 
-[UE4SS Documentation](https://docs.ue4ss.com/dev/lua-api.html)
-[PalWorld Modding Wiki](https://pwmodding.wiki/docs/lua-modding/ue4ss-functions)
-[Unreal Engine 5 Docs](https://docs.unrealengine.com/5.3/en-US/API/Runtime/Engine/GameFramework/)
+[UE4SS Documentation](https://docs.ue4ss.com/dev/lua-api.html)  
+[PalWorld Modding Wiki](https://pwmodding.wiki/docs/lua-modding/ue4ss-functions)  
+[Unreal Engine 5 Docs](https://docs.unrealengine.com/5.3/en-US/API/Runtime/Engine/GameFramework/)  
 
