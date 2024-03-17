@@ -15,50 +15,50 @@ tags:
 
 ### Monitoring the Game 
 
-이제 기반은 마련했지만 어떻게 시작해야 할 지 막막할 수 있다. 
-어떤 함수를 써야 하며, 이를 어떻게 연결하거나 호출해야 할까?? 
+이제 기반은 마련했지만 어떻게 시작해야 할 지 막막할 수 있다.   
+어떤 함수를 써야 하며, 이를 어떻게 연결하거나 호출해야 할까??   
 
-만약 생전 처음 해보는 스포츠, 예를 들어 미식 축구 같이 
-룰이 복잡하고 축구처럼 당장 필드에 들어가서 뛴다고 어떻게 할 수 있는게 아닐 때
-우리가 할 수 있는 최선이 무엇일까? 
+만약 생전 처음 해보는 스포츠, 예를 들어 미식 축구 같이   
+룰이 복잡하고 축구처럼 당장 필드에 들어가서 뛴다고 어떻게 할 수 있는게 아닐 때  
+우리가 할 수 있는 최선이 무엇일까?   
 
-일단 그냥 다른 선수들이 어떻게 하는지 벤치에 앉아서 지켜보는 것이다. 
-외부에서 지켜보는 것만으로도 작동 방식과 룰을 어느 정도 감을 잡을 수 있다. 
+일단 그냥 다른 선수들이 어떻게 하는지 벤치에 앉아서 지켜보는 것이다.   
+외부에서 지켜보는 것만으로도 작동 방식과 룰을 어느 정도 감을 잡을 수 있다.   
 
-우리는 내부 개발자가 아니기 때문에 내부 동작 코드에 대한 정보를 알지 못한다. 
-따라서 우리가 할 수 있는 최선은 외부에서 역으로 파고 들어가는 방법이다. 
-여기에는 정해진 방법이 없기 때문에 각자의 센스와 직관대로 하게 된다. 
-사실 우리가 지금 하는게 해킹이기도 하다. 
+우리는 내부 개발자가 아니기 때문에 내부 동작 코드에 대한 정보를 알지 못한다.   
+따라서 우리가 할 수 있는 최선은 외부에서 역으로 파고 들어가는 방법이다.   
+여기에는 정해진 방법이 없기 때문에 각자의 센스와 직관대로 하게 된다.   
+사실 우리가 지금 하는게 해킹이기도 하다.   
 
-가장 직관적인 방법은 게임의 작동 방식을 지켜보며 어떤 함수가 쓰이고 어떻게 호출 되는지 보는 것이다. 
-펠스피어의 작동 방식이 궁금하면, 게임에서 직접 이걸 던져봐서 어떤 코드가 호출되는지 보면 된다. 
-위에서 언급한 UE4SS의 **Live View**가 바로 여기에 쓰인다. 
+가장 직관적인 방법은 게임의 작동 방식을 지켜보며 어떤 함수가 쓰이고 어떻게 호출 되는지 보는 것이다.   
+펠스피어의 작동 방식이 궁금하면, 게임에서 직접 이걸 던져봐서 어떤 코드가 호출되는지 보면 된다.   
+위에서 언급한 UE4SS의 **Live View**가 바로 여기에 쓰인다.   
 
-좋은 센스를 가졌다면 적은 시행착오로 필요한 동작을 척척 가져다 쓸 수 있고, 
-그게 아니라면 일일히 뒤져가며 겨우겨우 하나 만들고 쉬러 가야 할 수도 있다. 
-~~괜히 해킹이 천재의 영역인게 아니다~~
+좋은 센스를 가졌다면 적은 시행착오로 필요한 동작을 척척 가져다 쓸 수 있고,   
+그게 아니라면 일일히 뒤져가며 겨우겨우 하나 만들고 쉬러 가야 할 수도 있다.   
+~~괜히 해킹이 천재의 영역인게 아니다~~  
 
 ### Basic UE4SS Functions
 
-모니터링을 해보며 어떤 재료들이 있는지 확인을 해보았다면
-이제는 이 재료들을 가지고 이리저리 컨트롤 해불 수 있어야 한다. 
+모니터링을 해보며 어떤 재료들이 있는지 확인을 해보았다면  
+이제는 이 재료들을 가지고 이리저리 컨트롤 해불 수 있어야 한다.   
 
-이렇게 컨트롤 할 수 있도록 UE4SS는 Lua API 형식으로 
-미리 만들어진 함수를 가져올 수 있다. 
+이렇게 컨트롤 할 수 있도록 UE4SS는 Lua API 형식으로   
+미리 만들어진 함수를 가져올 수 있다.   
 
-그런데 일단 들어가기 전에, Lua 에서 아래 둘은 같지만 표현 방식만 다를 뿐이다. 
-간단한 코드는 그냥 아래에 적는 것이 편하지만 
-코드가 길고 복잡해지면 따로 함수로 빼놓는 것이 덜 헷갈린다. 
+그런데 일단 들어가기 전에, Lua 에서 아래 둘은 같지만 표현 방식만 다를 뿐이다.   
+간단한 코드는 그냥 아래에 적는 것이 편하지만   
+코드가 길고 복잡해지면 따로 함수로 빼놓는 것이 덜 헷갈린다.   
 
 ```lua
 RegisterHook("/idk/some:function", function(self)  
---some complicated logic  
+	--some complicated logic  
 end)
 ```
 
 ```lua
 local function complicatedFunction(self)  
---some complicated logic  
+	--some complicated logic  
 end  
   
 RegisterHook("/idk/some:function", complicatedFunction)
@@ -70,7 +70,7 @@ RegisterHook("/idk/some:function", complicatedFunction)
 
 ```lua
 RegisterHook("/Script/Engine.PlayerController:ClientRestart", function (Context)  
--- do something  
+	-- do something  
 end)
 ```
 
@@ -105,23 +105,20 @@ non-BP Function (native)에 걸면 함수가 실행되기 전에 ResisterHook이
 ```lua
 local not_hooked = true  
 RegisterHook("/Script/Engine.PlayerController:ServerAcknowledgePossession", function(Context)  
-if not_hooked then  
-ExecuteWithDelay(5000,function()  
-NotifyOnNewObject("/Game/Pal/Blueprint/MapObject/BuildObject/BP_BuildObject_HeaterElectric_BP_BuildObject_HeaterElectric_C", function(Context)  
-print("Found Electric Heater ")  
-end)  
-end)  
-not_hooked = false  
-end  
+	if not_hooked then  
+		ExecuteWithDelay(5000,function()  
+		NotifyOnNewObject("/Game/Pal/Blueprint/MapObject/BuildObject/BP_BuildObject_HeaterElectric_BP_BuildObject_HeaterElectric_C", function(Context)  
+		print("Found Electric Heater ")  
+		end)  
+	end)  
+not_hooked = false   
 end)
 ```
 
 또는 
 
 ```lua 
-
 NotifyOnNewObject("/Script/Engine.PlayerController", function(PlayerController) PlayerController.InputPitchScale = -2.5 end) 
-
 NotifyOnNewObject("/Script/Engine.PlayerController", function(PlayerController) PlayerController.InputRollScale = 1.0 end)
 ```
 
@@ -129,7 +126,7 @@ NotifyOnNewObject("/Script/Engine.PlayerController", function(PlayerController) 
 
 ```lua 
 NotifyOnNewObject("/Script/Engine.PlayerController", function(PlayerController) 
-PlayerController.InputPitchScale = -2.5 PlayerController.InputRollScale = 1.0 end)
+	PlayerController.InputPitchScale = -2.5 PlayerController.InputRollScale = 1.0 end)
 ```
 
 이런 식으로 한 번에 묶는 것이 추천된다. 
