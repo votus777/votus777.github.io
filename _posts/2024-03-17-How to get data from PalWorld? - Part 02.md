@@ -27,7 +27,7 @@ Lua는 스크립트 언어이기 때문에 코딩에 익숙해야 하지만,
 특히 Unreal Engine의 변수 호출 방식과 수많은 함수에 익숙하지 않은 초기에는  
 코드 실행이 잘 되는지 계속 부딪혀가며 확인해야 하기 때문에 코드로 일단 돌려보는 것이 좋다고 생각한다.     
 
-그리고 무엇보다 이 프로젝트에서는 
+그리고 무엇보다 이 프로젝트에서는   
 OS 환경과 연결하여 csv 파일을 기록할 것이기 때문에 Lua를 통한 Mod 파일을 작성하는 방법을 선택한다.  
 
 
@@ -38,7 +38,8 @@ Lua를 사용한 Mod를 PalWorld에 적용하려면
 Lua API를 통해 다양한 작업을 가능하게 해준다.     
 이것이 없었다면 우리는 엄청난 노가다를 해야 했을 것이다.     
 UE4SS은 GuiConsole을 제공하기 때문에 로그를 확인하며 디버깅을 할 때도 굉장히 편하다.     
-또한 EnableHotReloadSystem = 1로 설정하면 모두 수정 후 게임을 굳이 종료하고 다시 시작하지 않아도 Ctrl + R 로 바로 적용할 수 있다.     
+또한 EnableHotReloadSystem = 1로 설정하면   
+모드 수정 후 게임을 굳이 종료하고 다시 시작하지 않아도 Ctrl + R 로 바로 적용할 수 있다.       
 
 #### 1. UE4SS - Unreal Engine 4/5 Scripting System   
    -> [Github Link](https://github.com/UE4SS-RE/RE-UE4SS)  
