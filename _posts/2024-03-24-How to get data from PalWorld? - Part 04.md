@@ -40,7 +40,7 @@ tags:
 BP_MonsterAIController? 뭔가 단서를 잡은 것 같다.   
 하지만 이게 어떤 Pal의 컨트롤러인지 모르겠다. 여기서 2147150525는 아마 고유번호 같은데 이를 한 번 검색해보자.     
 
-![image2](/images/pal3.png)
+![Pasted image 20240324232215](https://github.com/votus777/votus777/assets/51744036/5d20e83c-2ad1-47e3-b0e1-13f52677b2b5)
 
 하단의 Property를 살펴보니 Character에 `BP_PlantSlime`이라 명시되어 있다.   
 즉 `BP_MonsterAIController_Wild_C_2147150525`는 현재 플레이어 근처 어딘가에서 돌아다니는 야생 초롱이이다.  
@@ -49,7 +49,7 @@ BP_MonsterAIController? 뭔가 단서를 잡은 것 같다.
 
 그런데 `BP_MonsterAIController_Wild` 가 있으니 `BP_MonsterAIController_Basecamp`도 있지 않을까?   
 
-![image3](/images/pal4.png)
+![Pasted image 20240324233045](https://github.com/votus777/votus777/assets/51744036/fea123e0-61da-4858-8fdf-877c18e221b0)
 
 역시 존재한다. 아까와 같은 방식으로 2146150270 이라는 UID를 가진 친구이다.   
 Live View 검색 창에서는 `Path`에 있는 있는 경로까지도 포함해서 검색하다보니   
@@ -113,7 +113,7 @@ end)
 
 게임 내에서 실행시켜보자.  
 
-![image5](/images/pal5.png)
+![Pasted image 20240324235104](https://github.com/votus777/votus777/assets/51744036/1e96b6ca-62b9-4c9b-a20b-303d7b5b3052)
 
 일꾼들의 이름이 잘 나오는 것을 알 수 있다. 그런데 문제가 있다.   
 분명 현재 내가 위치해 있는 베이스 캠프의 Pal들은 6마리여야 하는데 테이블에는 28마리가 있다고 나온다. 왜일까?   
@@ -168,7 +168,7 @@ end
 아까 F5를 누르는 코드에 함수를 변경하고,   
 게임에서 `Ctrl + R`을 눌러 모드를 새로고침 한다. 그 다음 다시 F5를 눌러서 Consonle 창에서 결과를 확인한다.    
 
-![image6](/images/pal6.png)
+![Pasted image 20240325000123](https://github.com/votus777/votus777/assets/51744036/a19885bb-c260-4e3c-bd40-9db728caff6c)
 
 
 이제 베이스 캠프에서 일하는 Pal들의 이름과 위치 좌표를 가져올 수 있으니    
