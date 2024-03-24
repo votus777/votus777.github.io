@@ -31,7 +31,7 @@ tags:
 일본인들은 저게 무슨 뜻인지 바로 알아도 한국인은 모른다... 참고로 Otomo는 수행자, 동반자의 의미라고 한다.   
 게임에서 스피어에 넣고 항상 데리고 다니며 전투나 여행에 활용하는 Pal들을 의미.)  
 
-![image1](/images/pal1.png)
+![Pasted image 20240324231445](https://github.com/votus777/votus777/assets/51744036/c24a16ab-fb4d-4fd4-a0b6-8280babdaeac)
 
 일단 'Monster'로 검색을 해보니 Blueprint부터 애니메이션, 사운드 등 다양하게 검색된다.   
 넒은 범위에서 좁혀나가는 것이 초반 탐색에서는 유용하다.   
