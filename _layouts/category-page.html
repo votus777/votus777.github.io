@@ -5,10 +5,10 @@ layout: home
 <div class="c-posts o-opacity">
   {% for post in site.categories[page.title] %}
   <article class="c-post"> 
-    <a class="c-post-thumbnail" style="background-image: url(https://picsum.photos/1600x900);"
+    <a class="c-post-thumbnail" style="background-image: url(https://loremflickr.com/g/1600/900/nature);"
       href="{{post.url | prepend: site.baseurl}}"></a>
     <!-- 매번 image 폴더에 썸네일 & 배경 이미지 넣기 귀찮아서 unsplash 랜덤 이미지 가져오도록 바꿈 -->
-    <!--  24/07/13 unsplash 사용하려면 api 키 등록 해야해서 picsum 으로 변경  -->
+    <!--  24/07/13 unsplash 사용하려면 api 키 등록 해야해서 loremflickr 으로 변경  -->
     
     <div class="c-post-content">
       <h2 class="c-post-title">
