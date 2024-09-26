@@ -14,7 +14,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Han's study note # the main title
+title: Han # the main title
 
 tagline: Exist to Inspire the World to Play # it will display as the subtitle
 
