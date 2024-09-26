@@ -14,12 +14,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Han # the main title
+title: Han's study note # the main title
 
 tagline: Exist to Inspire the World to Play # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Han's study note
+  Studying Data Science, Games, and Humanities 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -99,7 +99,7 @@ cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
 # avatar: "/commons/avatar.jpg"
-avatar: "/assets/img/apple-icon.jpg"
+avatar: "/assets/img/apple-icon.png"
 
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
