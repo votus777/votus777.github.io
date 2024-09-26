@@ -11,11 +11,12 @@ order: 4
 >     
 > ***It’s about how we get there.***  
 
-
+<!--
 Research Interest:  
 - HAI (Human-AI Interaction)  
 - User Behavior Analytics  
 - AI Personality  
+-->
 
 <!-- 
  > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
