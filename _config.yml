@@ -28,8 +28,10 @@ url: "https://votus777.github.io"
 github:
   username: votus777 # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+# twitter:
+#   username: twitter_username # change to your Twitter username
+
+google_site_verification: Olctk4-lde21aRUKQW7hMMTgrit12w6P1CM5WM0Aeuk
 
 social:
   # Change to your full name.
@@ -55,8 +57,6 @@ webmaster_verifications:
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
-
-google_site_verification: Olctk4-lde21aRUKQW7hMMTgrit12w6P1CM5WM0Aeuk
 
 # Web Analytics Settings
 analytics:
