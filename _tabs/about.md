@@ -6,7 +6,7 @@ order: 4
 
 ## Data Scientist in games  
   
-> It’s not about reaching the end. 
+> It’s not about reaching the end.   
 > It’s about how we get there.  
 
 
