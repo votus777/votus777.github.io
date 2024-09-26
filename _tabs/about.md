@@ -5,9 +5,11 @@ order: 4
 ---
 
 ## Data Scientist in games  
-  
-> It’s not about reaching the end.   
-> It’s about how we get there.  
+
+> *If the end comes to everyone equally,   
+>   it’s not about reaching the end.*   
+>     
+> ***It’s about how we get there.***  
 
 
 Research Interest:  
