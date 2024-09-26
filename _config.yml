@@ -31,8 +31,6 @@ github:
 # twitter:
 #   username: twitter_username # change to your Twitter username
 
-google-site-verification: Olctk4-lde21aRUKQW7hMMTgrit12w6P1CM5WM0Aeuk
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -48,7 +46,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
+  google: Olctk4-lde21aRUKQW7hMMTgrit12w6P1CM5WM0Aeuk # fill in your Google verification code
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
