@@ -5,7 +5,10 @@ order: 4
 ---
 
 ## Data Scientist in games  
-I'm serious about games.    
+  
+> It’s not about reaching the end. 
+> It’s about how we get there.  
+
 
 Research Interest:  
 - HAI (Human-AI Interaction)  
