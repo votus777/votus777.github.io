@@ -10,7 +10,7 @@ order: 4
 >   it’s not about reaching the end.*   
 >     
 > ***It’s about how we get there.***  
-> And the name of the path will be ***Art of Failure.***
+> And the path will be full of ***Art of Failure.***  
 >   
 > In other words,  
 > ***We are in the Game.***
