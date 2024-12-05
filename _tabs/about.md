@@ -9,11 +9,12 @@ order: 4
 > *If the end comes to everyone equally,   
 >   it’s not about reaching the end.*   
 >     
-> ***It’s about how we get there***  
-> facing ***Art of Failure.***  
->   
+> ***It’s about how we get there,***
+> braving countless failures. 
+>  
+> This is the ***Art of Failure.***   
 > In other words,  
-> ***We are in the Game.***
+> ***We are in the Game.***  
 
 <!--
 Research Interest:  
