@@ -2,7 +2,7 @@
 title: How to Get Data from PalWorld? - Part 02
 description: Continuing the guide on collecting data from PalWorld using Unreal Engine and UE4SS.
 categories: [Project]
-date: 2022-02-12
+date: 2023-03-17
 tags: [Data Collection, Unreal Engine, UE4SS]
 ---
 
